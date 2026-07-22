@@ -1,0 +1,13 @@
+# Binary Tree Class
+A simple binary tree class in Python, developed for educational purposes only.
+
+# Features
+- Supports Multiple Traversal Orders: { Pre-Order, In-Order, Post-Order }
+- Recursive Search Method
+- Minimal, Simplistic Design
+
+# Usage Example (Python)
+from binary_tree import TreeNode
+root = TreeNode( 2, TreeNode(1), TreeNode(3) )
+root.output("in")  # Prints: 1 2 3
+print( root.search(3) )  # Prints: True
